@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
+  assetPrefix: isProd ? 'https://github.com/tintinguy01/pomo-time' : '',
+  basePath: isProd ? 'https://github.com/tintinguy01/pomo-time' : '',
   output: 'export'
 };
 
