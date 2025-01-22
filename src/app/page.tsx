@@ -1,7 +1,7 @@
 import Timer from "@/app/components/timer";
 import Navbar from "./components/navbar";
 import ToDoList from "./components/todo-list";
-import "../styles/globals.css";
+import "./globals.css";
 
 const MainPage = () => {
   return (
