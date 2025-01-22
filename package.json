@@ -4,10 +4,13 @@
   "private": true,
   "homepage": "https://tintinguy01.github.io/pomo-time",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start",
+  "lint": "next lint",
+  "predeploy": "next export",
+  "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.3",
